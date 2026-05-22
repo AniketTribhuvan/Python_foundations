@@ -27,6 +27,7 @@ Everything here is written to move from C/C++ concepts into Python's dynamic env
 
 ## 🗂️ Project Structure
 
+```
 01_Basics/
   01.print_statements.py         # Explanation on print function
   02.input_statements.py         # Explanation on input function
@@ -37,3 +38,4 @@ Everything here is written to move from C/C++ concepts into Python's dynamic env
   07.logical_&_comparison.py     # Code checking boolean conditions with and/or/not
   08.notes.md                    # Include notes
   09.financial_health_checker    # Mini project which checks personal budget & financial health
+```
