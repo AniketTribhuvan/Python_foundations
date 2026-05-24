@@ -19,6 +19,8 @@ print(text)              # Original string remains unchanged.
 print(text.lower())      # lower() converts all characters into lowercase.
 # Output: hello world
 
+print(len(text))         # len() counts the length of string (no. of characters)
+# Output : 11
 
 text = "   Hey How are you ????    "
 
@@ -111,14 +113,25 @@ print(text.isupper())
 
 text = "Hi, How are you ?"
 
-print(text.startswith("Hi"))
-# startswith() checks whether string starts with given value.
+print(text.startswith("Hi"))        # startswith() checks whether string starts with given value.
 # Output: True
 
-print(text.swapcase())
-# swapcase() converts uppercase to lowercase and vice versa.
+print(text.swapcase())              # swapcase() converts uppercase to lowercase and vice versa.
 # Output: hI, hOW ARE YOU ?
 
-print(text.title())
-# title() capitalizes first letter of each word.
+print(text.title())                 # title() capitalizes first letter of each word.
 # Output: Hi, How Are You ?
+
+text1 = "Hello"
+text2 = "World"
+print(text1 + text2)                # "+" concat both strings
+# Output : HelloWorld
+
+print(text1*10)                     # "*" repeat string declared no. of times.
+# output : HelloHelloHelloHelloHelloHelloHelloHelloHelloHello
+
+# Trick to reverse a string
+
+text = "Hello world"
+print(text[::-1])           # Start from the end & Move backward one position at a time
+# Output : dlrow olleH      # 5 -> 4 -> 3 -> 2 -> 1 -> 0

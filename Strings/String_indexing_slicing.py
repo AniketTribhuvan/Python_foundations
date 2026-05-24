@@ -7,7 +7,7 @@ String slicing is used to access a specific part
 of a string.
 
 Syntax:
-variable[start_index : end_index]
+string_variable[start_index : end_index]
 
 Note:
 The ending index is not included in the output.
@@ -45,3 +45,14 @@ print(name[:6])
 print(name[0:])
 # Output: Aniket
 # End index is automatically taken till the end of string.
+
+"""
+String step slicing :
+This is also string slicing, just include one more value which is (step).
+syntax : 
+string_variable[start_index : end_index : step]
+step : How much to junp through a string while slicing.
+"""
+
+print(name[0:6:2])      # It will print name from index o to 6 by jumping 2 steps each time.
+# output : Aie

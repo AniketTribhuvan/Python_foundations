@@ -3,7 +3,7 @@
 # so I don't forget how Python actually handles data, math, and inputs.
 
 
-1. WHAT EVEN IS PYTHON?
+# WHAT EVEN IS PYTHON?
 
 Basically, Python is a high-level, interpreted programming language. 
 
@@ -17,7 +17,7 @@ Basically, Python is a high-level, interpreted programming language.
 
 2. VARIABLES AND HOW MEMORY WORKS
 
-### Variable Assignment
+# Variable Assignment
 In Python, a variable isn't a physical box that holds data. It's more like a 
 name tag (a pointer) that hooks onto an object sitting in the computer's memory.
 
@@ -26,11 +26,11 @@ name tag (a pointer) that hooks onto an object sitting in the computer's memory.
 * If I change it later to x = "Hello", the label x just unties itself from 
   the 5 and hooks onto a brand new string object "Hello".
 
-### Dynamic Typing
+## Dynamic Typing
 Python uses means you don't have to declare datatype of variable like C/C++. Python will 
 automatically figures out the typetype from the value of variable you give.
 """
-# You can check what a variable currently is using the type() function:
+### You can check what a variable currently is using the type() function:
 x = 5
 print("x is currently:", type(x))  # <class 'int'>
 
@@ -54,11 +54,11 @@ my_bool = True        # Booleans (bool): True or False flags. Caps matter! (`tru
 The print() function just print the data onto the console screen. You can tweak 
 how it looks using a couple of cool optional settings like `sep` and `end`.
 """
-# `sep` changes what goes between items (default is a space)
+### `sep` changes what goes between items (default is a space)
 print("Apple", "Banana", "Cherry", sep=" | ") 
 Output : Apple | Banana | Cherry
 
-# `end` changes what happens at the very end (default is a newline `\n`)
+### `end` changes what happens at the very end (default is a newline `\n`)
 print("This stays on the ", end="")
 print("This stays on the ")
 
@@ -87,7 +87,7 @@ back_to_text = str(12.3)       # Turns the decimal number into text string "12.3
 
 6. OPERATORS CHEAT SHEET
 
-### Math Operators
+# Math Operators
 
 print(10 + 3)   # Addition -> 13
 print(10 - 3)   # Subtraction -> 7
@@ -98,7 +98,7 @@ print(10 % 3)   # Modulo -> Tells you the remainder of a division (1)
 print(2 ** 3)   # Exponentiation -> Powers/Exponents (2 cubed = 8)
 
 
-### Comparison Operators (Always answers True or False)
+#  Comparison Operators (Always answers True or False)
 
 print(5 == 5)   # Equal to -> True
 print(5 != 2)   # Not equal to -> True
@@ -106,7 +106,7 @@ print(5 > 3)    # Greater than -> True
 print(5 <= 3)   # Less than or equal to -> False
 
 
-### Logical Operators (Chaining comparisons together)
+# Logical Operators (Chaining comparisons together)
 * and: Only True if BOTH sides are true. If the first part is False, Python 
        stops checking entirely (short-circuit evaluation) because it's already ruined.
 * or:  True if AT LEAST ONE side is true.
@@ -118,12 +118,12 @@ print(not True)        # False
 
 # 7. MISTAKES I KEEP MAKING (THE LOG)
 
-# Mistake 1: The String Trap
-# If you forget to type-cast input, Python glues strings instead of doing math.
+## Mistake 1: The String Trap
+## If you forget to type-cast input, Python glues strings instead of doing math.
 
 num1 = "5"  # Simulated input("Enter 5: ")
 num2 = "5"  # Simulated input("Enter 5: ")
 print("Broken Addition:", num1 + num2) # Spits out "55" instead of 10. Annoying.
 
-# The Fix:
+## The Fix:
 print("Fixed Addition:", int(num1) + int(num2)) # Outputs 10
