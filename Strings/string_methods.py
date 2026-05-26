@@ -135,3 +135,10 @@ print(text1*10)                     # "*" repeat string declared no. of times.
 text = "Hello world"
 print(text[::-1])           # Start from the end & Move backward one position at a time
 # Output : dlrow olleH      # 5 -> 4 -> 3 -> 2 -> 1 -> 0
+
+
+print(ord("A"))       # ord() converts a character into its ASCII value.
+# Output: 65
+
+print(chr(65))        # chr() converts an ASCII value back into character.
+# Output: A
