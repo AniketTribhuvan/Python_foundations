@@ -69,9 +69,14 @@ Strings/
 
   text_analyzer.py               # Mini project based on string analysis
 
-  string_practice/
-    reverse_string.py            # Reverse a string using manual logic
-    vowel_count.py               # Count total vowels manually
-    palindrome_check.py          # Check whether string is palindrome or not
-    remove_spaces.py             # Remove spaces manually from string
+  manual_logic_practice_for_strings/
+    anagram_check.py               # Check if two strings are anagrams of each other
+    duplicate_character_check.py   # Check for and identify duplicate characters
+    duplicate_character_remove.py  # Remove duplicate characters from a string
+    frequency_counter.py           # Count the frequency of each character
+    palindrome_check.py            # Check whether string is palindrome or not
+    remove_spaces.py               # Remove spaces manually from string
+    reverse_string.py              # Reverse a string using manual logic
+    uppercase_to_lowercase.py      # Convert uppercase characters to lowercase
+    vowel_count.py                 # Count total vowels manually
 ```
