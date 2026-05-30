@@ -2,16 +2,18 @@
 
 A personal logbook and execution archive for mastering foundational Python. Built for tracking progression toward advanced computational workflows.
 
-## 📌 Overview
+## Overview
 
 This repository serves as my personal technical logbook and engineering archive. It documents my daily execution, practice scripts, and core conceptual notes as I master Python from the ground up. 
 
 The primary objective here is to build a rock-solid foundation in procedural, object-oriented, and computational programming, preparing the groundwork for data science and machine learning architectures.
 
-> ⚠️ **Note:** This repository is a personal archive for progress tracking and skills showcase. It is **not** a tutorial, textbook, or reference guide for external studies.
+**Note :** All files contains overview of important notes. Detailed notes is included in notes.md of each folder.  
+
+> **Note:** This repository is a personal archive for progress tracking and skills showcase. It is **not** a tutorial, textbook, or reference guide for external studies.
 
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 Python_foundations/
@@ -21,7 +23,7 @@ Python_foundations/
   README.md             # Main navigation hub and log tracking repository entry point
 ```
 
-## 🎯 Concepts Covered
+## Concepts Covered
 
 * **Core Primitives & Casting:** Memory allocation via dynamic variables, primitive data types (`int`, `float`, `str`, `bool`), and explicit stream type-casting.
 * **Control Flow & Conditional Branching:** Program routing using `if-else` structural blocks, optimization with `elif`, and structural pattern matching using `match-case`.
@@ -29,7 +31,7 @@ Python_foundations/
 * **String Sequences & Transformations:** Sequential indexing rules, boundary-exclusive slicing parameters, immutability behaviors, and built-in text manipulation methods.
 
 
-## 💻 Skills Developed
+## Skills Developed
 
 * **Logic Implementation:** Building script architectures that execute computational choices and filter criteria dynamically based on terminal runtime state.
 * **Interactive Tool Engineering:** Writing linear financial formulas and terminal scripts that accept, parse, and process raw operator input values.
@@ -37,7 +39,7 @@ Python_foundations/
 * **Text Analysis Parsing:** Developing custom algorithms to slice, inspect, clean, and validate textual payloads without external dependencies.
 
 
-## 🛠️ Execution Instructions
+## Execution Instructions
 
 To run any of the practice scripts locally, clone the repository and execute using your standard terminal:
 
