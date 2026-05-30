@@ -35,7 +35,7 @@ Functions are important because they help programs:
 
 ## Mini Projects / Practice
 
-- student_result_system.py
+- banking_system.py
 
 
 ## Key Takeaways
@@ -59,16 +59,17 @@ The next section focuses on advanced Python concepts such as:
 
 ## 🗂️ Project Structure
 
-```text
+```
 Functions/
-  README.md                         # Folder overview of Python functions
-  notes.md                          # Notes and concepts related to functions
+  README.md                                   # Folder overview of Python functions
+  notes.md                                    # Notes and concepts related to functions
 
-  function_basics.py                # Basic function syntax and calling
-  parameters_arguments.py           # Function parameters and arguments
-  return_statement.py               # Using return statement in functions
-  local_global_variables.py         # Local and global variable overview
-  recursion1.py                     # Basic recursion practice
-  lambda_function.py                # Lambda function basics
-  built_in_functions.py             # Overview of Python built-in functions
+  function.py                                 # Basic function syntax and calling
+
+  function_with_arguments/
+    function_with_required_arguments.py       # Functions with required arguments
+    function_with_default_arguments.py        # Functions with default arguments
+    function_with_keyword_arguments.py        # Functions with keyword arguments
+    function_with_return_arguments.py         # Functions using return statement
+    function_with_variable_length_arguments.py # Functions with variable-length arguments
 ```
